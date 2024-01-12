@@ -3,6 +3,11 @@
   src: url("./font/KakaoBig-Regular-v1.0.4bf7d77.ttf");
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: kakao;
 
