@@ -1,0 +1,64 @@
+/* p:nth-child(2) {
+  font-size: 100%;
+}
+p:nth-child(3) {
+  font-size: 150%;
+}
+p:nth-child(4) {
+  font-size: 200%;
+} */
+/* p:nth-child(2) {
+  font-size: 1em;
+}
+p:nth-child(3) {
+  font-size: 1.5em;
+}
+p:nth-child(4) {
+  font-size: 2em;
+} */
+/* p:nth-child(2) {
+  font-size: 16px;
+}
+p:nth-child(3) {
+  font-size: 24px;
+}
+p:nth-child(4) {
+  font-size: 32px;
+} */
+/* .text {
+  color: #000;
+} */
+/* * {
+  font-size: 30px;
+}
+
+div {
+  font-size: 20px;
+}
+
+p:nth-child(2) {
+  font-size: 2em;
+}
+p:nth-child(3) {
+  font-size: 50px;
+}
+p:nth-child(4) {
+  font-size: 200%;
+}
+p:nth-child(5) {
+  font-size: 2rem;
+} */
+:root {
+  --main-color: crimson;
+}
+
+#box1 {
+  width: 200px;
+  height: 200px;
+  background: var(--main-color);
+}
+#box2 {
+  width: 50vw;
+  height: 30vh;
+  background: var(--main-color);
+}
