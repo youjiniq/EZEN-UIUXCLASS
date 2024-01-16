@@ -1,0 +1,37 @@
+/* div {
+  width: 100px;
+  height: 100px;
+  background: #f00;
+
+  border: 20px solid #000;
+  margin: 10px 20px 30px 40px;
+  padding: 10px 20px 30px 40px;
+} */
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* border-width: 1px;
+  border-style: solid;
+  border-color: #000; */
+
+/* body {
+  background-image: url("./BackgroundFront.png"), url("./BackgroundBack.png");
+  background-size: 100% 250px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 50%;
+  background-color: #e7e7e7;
+} */
+body {
+  background: url(./BackgroundFront.png) bottom/100% no-repeat fixed,
+    url(./BackgroundBack.png) bottom/100% no-repeat fixed;
+}

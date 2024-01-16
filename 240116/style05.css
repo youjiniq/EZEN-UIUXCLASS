@@ -1,0 +1,14 @@
+div {
+  width: 500px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  background: -webkit-gradient(
+    linear , left top, left bottom,
+    color)
+  );
+  background: linear-gradient(to bottom, #febbbb 17%,#febbbb 17%,#ff5c5c 96%);
+  https://colorzilla.com/gradient-editor/#febbbb+17,febbbb+17,ff5c5c+96 */
+background: linear-gradient(to bottom, #febbbb 17%,#febbbb 17%,#ff5c5c 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
