@@ -1,0 +1,58 @@
+@import url(./reset.css);
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 16px 12px;
+}
+nav .nav_left {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  color: #000;
+  margin-top: 4px;
+}
+nav .nav_right {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  color: #000;
+  margin-top: 4px;
+}
+#search {
+  padding: 0 16px 16px;
+  position: relative;
+}
+#search span {
+  position: absolute;
+  left: 28px;
+  top: 10%;
+  color: #03c75a;
+}
+#search input {
+  width: 50%;
+  height: 36px;
+  padding-left: 35px;
+  border: 2px solid #03c75a;
+  border-radius: 20px;
+}
+#contents {
+  padding: 0 16px;
+}
+#contents .inner_content img {
+  border-radius: 16px;
+}
+#contents .top {
+  display: flex;
+  gap: 18px;
+}
+#contents .top img {
+  width: 47%;
+}
+section > article span {
+  color: #03c75a;
+}
+article #badges {
+  display: flex;
+}
