@@ -1,0 +1,32 @@
+body {
+  position: relative;
+}
+#box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /*100px = 50% */
+  text-align: center;
+  line-height: 150px;
+  background: linear-gradient(#cb60b3 0%, #db36a4 100%);
+
+  animation-name: rint;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+}
+@keyframes rint {
+  0% {
+    /*from은 시작점이므로 0%라해도됨 */
+    left: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    left: 500px;
+  }
+  100% {
+    left: 500px;
+    transform: rotate(360deg);
+  }
+}
