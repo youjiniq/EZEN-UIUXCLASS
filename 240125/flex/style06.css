@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+}
+nav {
+  flex: 1;
+  background: crimson;
+}
+.container {
+  flex: 3;
+}
+header {
+  background-color: cadetblue;
+  height: 100px;
+  text-align: left;
+  line-height: -100px;
+  color: #fff;
+}
+section {
+  display: flex;
+}
+article,
+aside {
+  height: calc(100vh - 200px);
+}
+article {
+  background-color: aqua;
+  flex: 3;
+}
+aside {
+  background-color: bisque;
+  flex: 1;
+}
+footer {
+  background-color: darkgray;
+  height: 100px;
+  text-align: left;
+  line-height: -100px;
+  color: #fff;
+}

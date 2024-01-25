@@ -1,0 +1,25 @@
+.parent {
+  border: 5px solid green;
+  display: flex;
+  /* justify-content: center; 가운데 정렬 */
+  /* gap: 50px; child간의간격을 동일하게 줄때 사용 */
+}
+
+.parent div {
+  width: 100px;
+  height: 50px;
+  background: crimson;
+  color: #fff;
+  text-align: center;
+}
+/* .child1 {
+  margin-right: auto;} /*이렇게 자식요소에 마진 주려면 부모요소에서 마진 없애야함*/
+
+/* .child1,
+.child2,
+.child3 {
+  margin-left: auto; /* 개별적으로 마진 줄때 사용*/
+
+.child2 {
+  margin: auto;
+} /* = space-between */

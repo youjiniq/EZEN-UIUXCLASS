@@ -1,0 +1,17 @@
+.parent {
+  border: 5px solid green;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  /* align-items: center; 각각 위치해있는 곳에서의 이동*/
+  align-content: space-around; /* 한 묶음으로 보고 이동시킴 .. flex-wrap으로 분리되어 여러개일때만 다르게 작용 */
+}
+
+.parent div {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  color: #fff;
+  text-align: center;
+  background: crimson;
+}

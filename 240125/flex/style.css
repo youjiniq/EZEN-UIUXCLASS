@@ -1,0 +1,44 @@
+@import url(./reset.css);
+/* div {
+  width: 100px;
+  height: 100px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+} */
+
+/* body {
+  background: yellowgreen;
+  display: flex; /*적용하고자 하는 것의 부모에게 적용 , 중심축 가로 */
+/* justify-content: center;
+/* align-items: center; /* 안먹음 */
+/* height: 100vh; /*aling 주기위해 하이트값 */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background: #000;
+} */
+
+.parent {
+  border: 5px solid #0f0;
+  height: 500px; /*자식요소 지정안해도 부모의 높이값을 상속받음*/
+  display: flex;
+  /* justify-content: space-around; 모든 마진의 길이가 다 같아야함 = around , 양극단으로 몰기 = between , center = 가운데 정렬 */
+  align-items: stretch; /* flex-end,start세로축에서의 끝,시작 / strech : 자동으로 부모요소의 높이값 가져가게 함  */
+}
+.parent div {
+  width: 300px;
+  background: crimson;
+  text-align: center;
+  color: #fff;
+  margin: 5px;
+}
+.child1 {
+  /* height: 100px; */
+}
+/* .child2 {
+  height: 200px;
+} */
