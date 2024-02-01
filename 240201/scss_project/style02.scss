@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  height: 100vh;
+  background: black;
+}
+.item {
+  position: relative;
+}
+.items01 {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #fff;
+  border-radius: 100%;
+  border-top: 4px solid transparent;
+  color: #fff;
+}
+.figma-item02 {
+  
+}

@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+}
+
+.Figma {
+  font-size: 80px;
+  position: relative;
+}
+
+.figma-item01 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px 0 0 50px;
+  background: red;
+  position: relative;
+  top: 150px;
+  left: -200px;
+}
+
+.figma-item02 {
+  width: 100px;
+  height: 100px;
+  border-radius: 0 50px 50px 0;
+  background: red;
+  opacity: 60%;
+  position: relative;
+  top: 150px;
+  left: -200px;
+}
+
+.figma-item03 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px 0 0 50px;
+  background: rgb(114, 7, 156);
+  position: relative;
+  top: 250px;
+  left: -400px;
+}
+
+.figma-item04 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: rgb(4, 139, 218);
+  position: relative;
+  top: 250px;
+  left: -400px;
+}
+
+.figma-item05 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: green;
+  position: relative;
+  top: 350px;
+  left: -600px;
+}/*# sourceMappingURL=style01.css.map */
