@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+#contianer {
+  width: 600px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+#top {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 30px;
+
+}
+#top li {
+  margin-top: 20px 0;
+}
+#top li b {
+  display: inline-block;
+  width: 70px;
+}
+#view {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+p {
+  line-height: 2;
+  font-size: 0.8rem;
+}
+
+/* 가상클래스 */
+.hidden {
+  display: none;
+}
