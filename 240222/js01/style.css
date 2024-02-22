@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background: rgb(207, 193, 193);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#container {
+  text-align: center;
+}
+#container .result {
+  margin-top: 20px;
+}
+h1 {
+  margin-bottom: 20px;
+  color: rgb(175, 89, 62);
+}
+#box {
+  width: 500px;
+  height: 500px;
+  border: 2px solid #2e7440;
+  border-radius: 10px;
+}
