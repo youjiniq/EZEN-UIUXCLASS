@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sec0 {
+  background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
+}
+#sec1 {
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+#sec2 {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+#sec3 {
+  background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+#sec4 {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+#fp-nav ul li a span {
+  background: #c3ebe7;
+}
+
+#nav_icon {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 25px;
+  z-index: 3;
+}
+#nav_icon div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#nav_icon div span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #c3ebe7;
+  transition: all 0.3s ease-in-out;
+}
+#nav_icon div span:nth-child(1) {
+  top: 0;
+}
+#nav_icon div span:nth-child(2) {
+  top: 10px;
+}
+#nav_icon div span:nth-child(3) {
+  top: 20px;
+}
+#nav_icon.active div span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 10px;
+}
+#nav_icon.active div span:nth-child(2) {
+  transform: translateX(100%);
+  opacity: 0;
+}
+#nav_icon.active div span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+.nav {
+  position: fixed;
+  top: 30px;
+  right: 60px;
+  z-index: 2;
+  opacity: 0;
+}
+.nav.active {
+  opacity: 1;
+}
+.nav ul {
+  display: flex;
+
+}
+.nav ul li {
+  margin-right: 20px;
+}
+.nav ul li a {
+  color: #c3ebe7;
+}
+.inner {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1.title {
+  color: #ffffff;
+  font-size: 50px;
+  opacity: 1;
+  /* transform: translateX(-100%);
+  transition: all 0.3s ease-in-out;
+  transition-delay: 1s; */
+}
+/* h1.title {
+  color: #fff;
+  opacity: 1;
+  font-size: 50px;
+} */
+/* .section.active h1.title {
+  opacity: 1;
+  transform: translateX(0);
+}
+#sec h1.title {
+  transform: translateY(-100%) translateX(0);
+}
+#sec1.section.active h1.title {
+  transform: translateY(0) translateX(0);
+} */
+
+.slider_wrap {
+  width: 600px;
+  height: 400px;
+  background: #ccc;
+  position: relative;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(50px);
+}
+.slider_wrap .slide {
+  height: 400px;
+}
+.slide_inner {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 30px;
+}
+.slider_wrap .fp-tableCell {
+  display: block;
+}
+.sl_01 {
+  background: #94b6f1c1;
+}
+.sl_02 {
+  background: #a5f4bfd4;
+}
+.sl_03 {
+  background: #cda8f2a6;
+}
+.sl_04 {
+  background: #f689ca9c;
+}
+.fp-controlArrow.fp-prev {
+  left: -40px;
+  border-width: 19px 18px 19px 0;
+}
+.fp-controlArrow.fp-next {
+  right:-40px;
+  border-width: 19px 0 19px 18px;
+}
+
+#sec2 .inner {
+  justify-content: space-around;
+}
+#sec2 h1.title {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+
+/* 
+1. cdn.js > fullpage 검색
+-fullpage.js(3.1버전) & css URL > html 설치
+-script defer 속성 넣기
+
+2. fullpage.js Docs 내용 초기화
+- html :  fullPage ID/ class sesction 있어야함
+- script : fullpage() 초기화
+
+3. fullpage.js 네비게이션 활성화!
+- script : navigation: true 로
+- #fp-nav ul li a span > #fff
+
+4. 우측 상단, 토글버튼 & 네비게이션
+- css를 활용해서 작업
+- 링크연결 : script > anchors
+
+5. 각 섹션별 타이틀 이동 트랜지션 효과 
+- 플러그인 특유의 css 문법 가짐
+- 해당 섹션이 웹브라우저 중심으로 들어온 경우 자동으로 active 클래스 적용
+- active 클래스 활용 
+
+6. 슬라이드효과
+- slider_wrap 클래스 & slide > slide_inner
+
+7. 특정 섹션, afterLoad 효과
+- 이미 지나간 섹션 & 새롭게 들어온 섹션에 따라 조건문을 활용해서 결과값을 다르게 도출
+> wow.js 와 같은 효과 연출 
+*/
